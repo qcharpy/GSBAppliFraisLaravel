@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 sept. 2015, 09:38:30
+    Author     : alain
+*/
+.info_home div {
+   text-align: center;
+}
+.body{
+    padding-top: 10px;
+}
+header{
+        background-color:rgb(72,198,236);
+	color : #980101;
+	border: solid 0.1em #980101;
+	height: 154px;
+	border-collapse: separate;
+}
+header #logoGSB {
+  width : 238px;
+  height : 152px;
+}
+.titre{
+    padding-bottom: 20px;
+}
+
+.img_const{
+    width: 100%;
+}
+
+@media all and (min-width: 1201px)
+{
+    .modifInfosMdp
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    .modifInfos
+    {
+        width: 48%;
+    }
+
+    .modifMdp
+    {
+        width: 48%;
+    }
+
+
+    .modifMdp .form-group label
+    {
+        width: 41%;
+    }
+
+    .infosPerso .form-group label
+    {
+        width: 30%;
+    }
+
+    .modifMdp .form-group div, .infosPerso .form-group div
+    {
+        width: 50%;
+    }
+}
+
+
+@media all and (max-width: 1200px)
+{
+    .modifInfosMdp
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .modifInfos
+    {
+        width: 100%;
+    }
+
+    .modifMdp
+    {
+        width: 100%;
+    }
+
+
+    .modifMdp .form-group label
+    {
+        width: 50%;
+    }
+
+    .infosPerso .form-group label
+    {
+        width: 50%;
+    }
+
+    .modifMdp .form-group div, .infosPerso .form-group div
+    {
+        width: 50%;
+    }
+
+    .form-group
+    {
+        display: flex;
+    }
+
+    
+}
+
+
+
